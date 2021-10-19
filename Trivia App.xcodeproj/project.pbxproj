@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		51C6596B271F760600C6E8AC /* Trivia_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C6596A271F760600C6E8AC /* Trivia_AppApp.swift */; };
+		51C6596B271F760600C6E8AC /* Trivia_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C6596A271F760600C6E8AC /* Trivia_App.swift */; };
 		51C6596D271F760600C6E8AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C6596C271F760600C6E8AC /* ContentView.swift */; };
 		51C6596F271F760800C6E8AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51C6596E271F760800C6E8AC /* Assets.xcassets */; };
 		51C65972271F760800C6E8AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51C65971271F760800C6E8AC /* Preview Assets.xcassets */; };
+		51C6597C271F776700C6E8AC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C6597B271F776700C6E8AC /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		51C65967271F760600C6E8AC /* Trivia App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trivia App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		51C6596A271F760600C6E8AC /* Trivia_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia_AppApp.swift; sourceTree = "<group>"; };
+		51C6596A271F760600C6E8AC /* Trivia_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia_App.swift; sourceTree = "<group>"; };
 		51C6596C271F760600C6E8AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		51C6596E271F760800C6E8AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51C65971271F760800C6E8AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		51C65973271F760800C6E8AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51C6597B271F776700C6E8AC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +54,9 @@
 		51C65969271F760600C6E8AC /* Trivia App */ = {
 			isa = PBXGroup;
 			children = (
-				51C6596A271F760600C6E8AC /* Trivia_AppApp.swift */,
+				51C6596A271F760600C6E8AC /* Trivia_App.swift */,
 				51C6596C271F760600C6E8AC /* ContentView.swift */,
+				51C6597B271F776700C6E8AC /* Model.swift */,
 				51C6596E271F760800C6E8AC /* Assets.xcassets */,
 				51C65973271F760800C6E8AC /* Info.plist */,
 				51C65970271F760800C6E8AC /* Preview Content */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51C6597C271F776700C6E8AC /* Model.swift in Sources */,
 				51C6596D271F760600C6E8AC /* ContentView.swift in Sources */,
-				51C6596B271F760600C6E8AC /* Trivia_AppApp.swift in Sources */,
+				51C6596B271F760600C6E8AC /* Trivia_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
